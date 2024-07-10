@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        .search-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .search-input {
+            padding: 5px 10px 5px 30px; 
+            font-size: 14px;
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none; 
+        }
+    </style>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #f1f1f1;">
+        <div style="display: flex; align-items: center;">
+            <div style="margin-right: 10px;">
+                <button style="padding: 5px 10px; font-size: 14px;">LOGO</button>
+            </div>
+            <div>
+                <button style="padding: 5px 10px; font-size: 14px;">COMPANY NAME</button>
+            </div>
+        </div>
+        <nav>
+            <a href="#" style="margin-right: 10px; text-decoration: none; color: #007bff;"><u>Home</u></a>
+            <a href="#" style="margin-right: 10px; text-decoration: none; color: #007bff;"><u>Products</u></a>
+            <a href="#" style="margin-right: 10px; text-decoration: none; color: #007bff;"><u>Company</u></a>
+            <a href="#" style="text-decoration: none; color: #007bff;"><u>More</u></a>
+        </nav>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search">
+            <span class="search-icon">🔍</span> <!-- Use an icon here, can be a font icon, SVG, or an image -->
+        </div>
+    </header>
+
+   
+    <main style="padding: 20px;">
+        <h1 style="text-align: center;">Headline</h1>
+        <div style="display: flex; justify-content: space-around; margin: 20px 0;">
+            <div style="width: 45%; padding: 20px; background-color: #d3d3d3; text-align: center;">
+                <img src="message.jpg" alt="Subhead 1 Image" style="width: 50%; height: auto;">
+                <h2>Subhead 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt augue suscipit orci hendrerit malesuada id et tellus. Ut rutrum quam eget enim ultricies sodales. Quisque efficitur erat a volutpat tristique. Fusce condimentum purus in urna scelerisque volutpat.</p>
+                <button style="padding: 10px 20px; font-size: 16px;">Button</button>
+            </div>
+            <div style="width: 45%; padding: 20px; background-color: #d3d3d3; text-align: center;">
+                <img src="message.jpg" alt="Subhead 2 Image" style="width: 50%; height: auto;">
+                <h2>Subhead 2</h2>
+                <p>Quisque efficitur erat a volutpat tristique. Fusce condimentum purus in urna scelerisque volutpat. Duis porttitor massa nec enim malesuada, vitae aliquam neque vulputate. Morbi dictum ex porta, condimentum diam et, placerat magna.</p>
+                <button style="padding: 10px 20px; font-size: 16px;">Button</button>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: space-around;">
+            <p style="width: 45%;">Quisque efficitur erat a volutpat tristique. Fusce condimentum purus in urna scelerisque volutpat. Duis porttitor massa nec enim malesuada, vitae aliquam neque vulputate. Morbi dictum ex porta, condimentum diam et, placerat magna.</p>
+            <p style="width: 45%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt augue suscipit orci hendrerit malesuada id et tellus. Ut rutrum quam eget enim ultricies sodales. Quisque efficitur erat a volutpat tristique.</p>
+        </div>
+    </main>
+
+    
+    <footer style="padding: 10px 20px; background-color: #f1f1f1; text-align: center;">
+        <a href="#" style="margin-right: 10px; text-decoration: none; color: #007bff;"><u>Home</u></a>
+            <a href="#" style="margin-right: 10px; text-decoration: none; color: #007bff;"><u>Products</u></a>
+            <a href="#" style="margin-right: 10px; text-decoration: none; color: #007bff;"><u>Company</u></a>
+            <a href="#" style="text-decoration: none; color: #007bff;"><u>More</u></a>
+    </footer>
+
+</body>
+</html>
