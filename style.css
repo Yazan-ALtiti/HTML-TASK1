@@ -1,0 +1,148 @@
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-input {
+    padding: 5px 10px 5px 30px; 
+    font-size: 14px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; }
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    body {
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 50px;
+        height: auto;
+        margin-right: 10px;
+    }
+    
+    nav a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        text-decoration: underline;
+    }
+    
+    .search-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .search-input {
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    .search-icon {
+        margin-left: 5px;
+    }
+    
+    main {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+        font-size: 2.5em;
+        color: #333;
+    }
+    
+    .content-section {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .content-block {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        width: 45%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+    
+    .content-block img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .content-block h2 {
+        margin-bottom: 10px;
+        color: #333;
+    }
+    
+    .content-block p {
+        margin-bottom: 10px;
+        color: #666;
+    }
+    
+    button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #555;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    footer a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+    }
+    
