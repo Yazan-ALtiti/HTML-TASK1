@@ -29,4 +29,6 @@ form.addEventListener("submit", (e) => {
   tr.appendChild(tdPrice);
 
   tbody.appendChild(tr);
+
+  form.reset();
 });
